@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(rgba(9, 5, 54,0.3),rgba(5, 4, 46, 0.7)), url("images/reg_bg.webp");
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 150vh;
+}
+.nav_bar ul li{
+    background-color: rgb(13, 13, 197);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 110px;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0.377);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 0.5rem;
+}
+.reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    margin: 35px;
+    width: 40vw;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+.registration b{
+    font-size: 1.4rem;
+    color: rgb(49, 5, 5);
+}
+.registration input{
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: #000;
+}
+.alert{
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.btn_reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnn{
+    margin: 48px;
+    height: 8vh;
+    width: 15vw;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-radius: 6px;
+    border: 3px solid rgb(4, 5, 43);
+}
+.btnn:hover{
+ cursor: pointer;
+ transform: scale(1.1);
+}
+.languages{
+    display: flex;
+    flex-direction: column;
+}
